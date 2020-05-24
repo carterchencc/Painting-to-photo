@@ -1,3 +1,9 @@
+# Introduction
+Computer vision communities have produced multiple successful techniques to stylize photorealistic images. However, the reversed image translation problem: generate photorealistic images from paintings, is not as widely explored.
+Generating photorealistic images from paintings is an interesting yet challenging task, due to the abstract nature in painting content, and the demanding details to make an image look photo-realistic. Although there are already some applications that explores the possibility of translating a Monet painting to a photo using CycleGAN, these techniques do not have a good understanding of the overall scene structure; they are only able to modify pixel colour instead of generating new realistic objects, thus requiring many further improvements in order to achieve successful results.
+In this project, we present an approach that understands the semantic layout of a painted scene and utilizes such scene segmentation to generate a corresponding photorealistic image. Our contributions include: (i) a synthesized painting training dataset with segmentation labels, (ii) the demonstration of training HRNetV2 with and without OCR (Object Contextual Representations), and (iii) an additional discriminator in GuaGAN to distinguish photo-realistic images.
+
+
 # modified_GAU_GAN
 
 # Reference: GAU-GAN from NVIDIA
