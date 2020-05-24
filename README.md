@@ -13,3 +13,6 @@ Add --continue_train to continue from last checkpoint.
 Run test.sh to test:\
 Here is the sample command for testing:\
 python test.py --name orig_train --dataset_mode ade20k --dataroot ./datasets/vangogh_real
+
+# Sample model can be downloaded from here
+https://drive.google.com/drive/folders/10WlOkkZqJ9wiL7oa3wiFpZP5hzrVIGAd?usp=sharing
